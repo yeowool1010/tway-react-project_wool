@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* 나눔 고딕 font를 추가했습니다 */
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 300;
+  src: url("../src/assets/fonts/NanumGothicLight.woff2") format('woff2'),
+  url("../src/assets/fonts/NanumGothicLight.woff") format('woff'),
+  url("../src/assets/fonts/NanumGothicLight.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../src/assets/fonts/NanumGothic.woff2") format('woff2'),
+  url("../src/assets/fonts/NanumGothic.woff") format('woff'),
+  url("../src/assets/fonts/NanumGothic.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: bold;
+  src: url("../src/assets/fonts/NanumGothicBold.woff2") format('woff2'),
+  url("../src/assets/fonts/NanumGothicBold.woff") format('woff'),
+  url("../src/assets/fonts/NanumGothicBold.otf") format('truetype')
+}
+
+/* (+) font-weight
+300 - Light
+400 - Normal
+700 - Bold
+800 - Extra Bold (Ultra Bold) */
